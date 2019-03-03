@@ -1,0 +1,24 @@
+{
+  "name": "clouddistrict/tdd-php-example",
+  "description": "A simple project to learn tdd",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Adrian Alonso",
+      "email": "adrian.alonso@clouddistrict.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "CloudDistrict\\TDD\\": ["src/"],
+      "Tests\\CloudDistrict\\TDD\\": ["tests/"]
+    }
+  },
+  "require": {
+    "php": "^7.2",
+    "webmozart/assert": "^1.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  }
+}
